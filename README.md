@@ -1,3 +1,3 @@
 # Programming-with-Javascript
 
-This course "Programming with Javascript" is from the Meta course on Coursera.
+This repository is about "Programming with Javascript" which is from the Meta course on Coursera.
