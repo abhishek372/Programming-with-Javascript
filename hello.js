@@ -8,6 +8,6 @@ console.log("Hello" + " World")
 console.log("Hello", "there", "World")
 
 // Function to print in the document 
-document.write("Hello World")
+let c = document.write("Hello World")
 
 // 
