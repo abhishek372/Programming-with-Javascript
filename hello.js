@@ -8,7 +8,8 @@ console.log("Hello" + " World")
 console.log("Hello", "there", "World")
 
 // Function to print in the document 
-let c = document.write("Hello World")
+// let c = document.write("Hello World")
+// console.log(c)
 
 // alert box
-alert("Hello World")
+// alert("Hello World")
