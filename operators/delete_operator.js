@@ -3,15 +3,15 @@
 
 const Employee = {
     firstName: "Rohan",
+    lastName: "Sharma",
     lastName: "Singh",
-    lastName: "Sharma"
 }
 
-console.log(Employee, typeof Employee)
+console.log(Employee, typeof(Employee), typeof(Employee.firstName))
 console.log(Employee.lastName)
 
 
-delete Employee.firstName       // delete the property of Employee
-console.log(Employee.lastName)
-console.log(Employee)
+// delete Employee.firstName       // delete the property of Employee
+// console.log(Employee.lastName)
+// console.log(Employee)
 
