@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: rgb(1, 105, 209);
+    padding-top: 1em;
+}
+#input-container {
+    width: 100%;
+    text-align: center;
+}
+p {
+    padding: 1em;
+    font-size: 2em;
+    font-weight: medium;
+    color: #545454;
+}
+#color-input {
+    margin: .5em;
+    padding: .5em;
+    width: 10em;
+    height: 6em;
+    border: 2px solid #0000;
+    border-radius: 5px;
+}
