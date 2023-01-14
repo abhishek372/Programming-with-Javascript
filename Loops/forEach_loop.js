@@ -2,12 +2,9 @@
 
 let numbers = [1, 2, 3, 4, 5, 6];
 
-// numbers.forEach(function(number) {
-//     console.log(number);
-// })
-
 // Here, displaItems is a callback function
 numbers.forEach(displayitems)
+
 
 //  (item, index, numbers) is a callback function which accepts three arguments
 function displayitems(item, index, numbers) {
@@ -18,6 +15,7 @@ function displayitems(item, index, numbers) {
 numbers.forEach((item, index, numbers) => {
     console.log("arr[" + index + "]" + "=" + item);
 })
+
 
 
 
