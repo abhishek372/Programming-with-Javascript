@@ -1,7 +1,6 @@
 // Padding is the process of adding the string into another string
 // It can be from start as well as can be from end.
 
-
 // padStart() pads the string from the start 
 // padEnd() pads the string from the end
 
