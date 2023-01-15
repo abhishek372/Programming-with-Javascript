@@ -9,12 +9,12 @@
     <!-- CSS file link -->
     <style>
         body {
-        /* background-color: gray; */
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: rgb(31, 31, 31);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #fff;
         }
         .heading {
             text-align: center;
-            color: #000000;
             font-size: 2.25em;
             padding: 1em 0;
         }
@@ -40,10 +40,27 @@
         <li>alert() function - it shows the popup box</li>
     </ul>
 
-    <p>Below sentence is written using document.write() function;</p>
+
+    <button onclick="localeLowerCase()">ByLocaleLowerCase</button>
+    <button onclick="lowerCase()">ByLowerCase</button>
+    <p id="text">HELLO World!</p>
+
+    <!-- <p>Below sentence is written using document.write() function;</p> -->
     
     <!-- JS file link -->
-    <script src="./hello.js"></script>
+    <!-- <script src="./hello.js"></script> -->
+    <script>
+        const text = document.querySelector("#text");
+        
+        function localeLowerCase() {
+           text.textContent = text.textContent.toLocaleLowerCase();
+        }
+
+        function lowerCase() {
+            text.textContent = text.textContent.toLowerCase();
+        }
+
+    </script>
 
 </body>
 </html>
