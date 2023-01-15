@@ -4,6 +4,7 @@
 let string = "This is a string to check whether a string startsWith some specified string";
 let substr = "string";
 
+
 console.log(string.endsWith(substr));           // true
 console.log(string.endsWith("some"));           // false
 

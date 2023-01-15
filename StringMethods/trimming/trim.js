@@ -3,4 +3,6 @@
 let string = " this is a string";
 console.log(string, string.length);
 console.log(string.trim());
-console.log(string.trim(' '));      //same as trim()
+console.log(string.trim(' '));      // same as trim()
+
+
