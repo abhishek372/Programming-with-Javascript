@@ -35,5 +35,4 @@ console.log(result);
 let resultCompare = 'zavb' > 'n';
 console.log(resultCompare);
 
-
 // In string comparison, only the first character value is compared with the first character value of second string
