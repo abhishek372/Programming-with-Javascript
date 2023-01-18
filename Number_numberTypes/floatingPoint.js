@@ -17,3 +17,11 @@ let num = 5e4;              // 5*10^4
 console.log({num})          // 50000
 
 
+// We can also use parseFloat() method to convert strings into floating point numbers
+let number1 = parseFloat('5.23');
+console.log(number1);
+
+console.log(parseFloat('asdf3456'));
+console.log(parseFloat('34.56sdfg'));
+
+
