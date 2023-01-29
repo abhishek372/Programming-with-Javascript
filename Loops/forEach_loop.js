@@ -15,8 +15,3 @@ function displayitems(item, index, numbers) {
 numbers.forEach((item, index, numbers) => {
     console.log("arr[" + index + "]" + "=" + item);
 })
-
-
-
-
-
