@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #153a71, #00669e, #0093c0, #00c1d5, #31efde);    
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.heading {
+    color: #0a1a2a; 
+    font-size: 3.5em;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+#main-container {
+    background-color: #006772;
+    height: 30em;
+    width: 40em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.main-inner-container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.cost-input, .tip-cost-input, .calculate-btn {
+    padding: 0.45em 0.25em;
+    width: 20em;
+    font-size: 1.5em;
+}
+
+.cost-input, .tip-cost-input {
+    color: #566573;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    outline: none;
+    border: 3px solid #1b232b;
+    border-radius: 5px;
+    text-align: center;
+}
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+::placeholder {
+    color: #727a83;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.calculate-btn {
+    color:#0d1014;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
+.total-tip {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 200;
+}
