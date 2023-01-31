@@ -10,6 +10,7 @@ console.log(arr, typeof(arr));
 arr[0] = 5;
 console.log(arr);
 
+
 // Array with const keqyword does not define constant array but 
 // it defines constant reference to the array.
 
@@ -27,3 +28,12 @@ const nums = [12, 23, 34, 55];
 }
 // console.log(numbs);             // Error as array is block scroped
 console.log(nums);                // Array nums is block scrope
+
+
+// We can also create a new Array using new kewyword
+let newArray = new Array("Saab", "Volvo", "BMW");
+let i = 0;
+while(i<newArray.length){
+    console.log(newArray[i]);
+    i++;
+}
