@@ -18,7 +18,7 @@ const ar = [2,4,5,6];
 ar[0] = 10;
 console.log(ar);
 
-// Const has block scope so, array declaraed in a block is not same as array declaraed outside of block scope
+// Const has block scope so, array declared in a block is not same as array declaraed outside of block scope
 
 const nums = [12, 23, 34, 55];
 {
@@ -26,4 +26,4 @@ const nums = [12, 23, 34, 55];
     console.log(numbs);
 }
 // console.log(numbs);             // Error as array is block scroped
-console.log(nums);              // Array nums is block scrope
+console.log(nums);                // Array nums is block scrope
