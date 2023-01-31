@@ -1,8 +1,9 @@
 // Array is a special variable, which is used to store multiple items with different types.
-// it can be  created using array literal.
-// var array[size] = [1, 2, 3, 'Hello'];
-// Array type is object by default.
+// It can be  created using array literal and uses numbered index.
+// Syntax - var array[size] = [1, 2, 3, 'Hello'];
+// Type - object by default. 
 
+// Array elements can be any primitive values, functions, objects and even array.
 
 let arr = [1, 3, 4, 6];
 console.log(arr, typeof(arr));
@@ -37,3 +38,5 @@ while(i<newArray.length){
     console.log(newArray[i]);
     i++;
 }
+
+// Main features of array is their built-in properties and methods associated with them.
