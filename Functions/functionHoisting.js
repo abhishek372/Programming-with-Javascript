@@ -15,3 +15,13 @@ function square(num){
 // const square = function(num) {          // Error
 //     return num * num;
 // }   
+
+
+let a = 10,
+    b = 5;
+
+// console.log(add(a, b));      // it will throw an error as function cannot be accessed before initialization
+
+let add = (a,b) =>  a + b ;
+
+console.log(add(a, b)); 
