@@ -1,4 +1,6 @@
-// Closures 
+// In javascript, we can nest function withing a function.
+// It also forms a closure. A closure is an expression that can have 
+// free variables together with an environment that binds those variables.
 
 function addSquares(a, b) {
     function square(x) {
