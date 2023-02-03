@@ -1,11 +1,15 @@
 // Tip calculator script
 
-const cost = document.querySelector('.cost-input');
-const tip = document.querySelector('.tip-cost-input');
-const result = document.querySelector('.total-tip');
+let cost = document.querySelector('.cost-input');
+let tipPercent = document.querySelector('.tip-percent-input');
+let result = document.querySelector('.total-tip');
 const btn = document.querySelector('.calculate-btn');
 
 const mainInnerContainer = document.querySelector('#main-inner-container');
+
+// Take user input using prompt
+cost.value = prompt('Entey food cost: ');
+tipPercent.value = prompt('Enter the tip percent: ');
 
 // Calculate the cost on button click
 btn.addEventListener('click', () => {
@@ -13,17 +17,22 @@ btn.addEventListener('click', () => {
     let span = document.createElement('span');
 
     if(cost.value==0 || cost.value==null){
-        alert('Please fill the cost input!!');
-        // span.textContent = 'Please fill the cost input';
-        // cost.after(span);
+        alert('Please fill the valid food cost input!!');
     }
-    else if (tip.value==0 || tip.value==null){  
+    else if (tipPercent.value==0 || tipPercent.value==null){  
         alert('Please give some tip.');
-        // span.textContent = 'Please give some tip';
-        // tip.after(span);
     }
     else{
-        let tipPercent = parseFloat(tip.value/100);
-        result.innerHTML = cost.value * tipPercent;
+        let tipAmount = parseFloat(tipPercent.value/100);
+        result.innerHTML = (cost.value * tipAmount).toFixed(2);
     }
 })
+
+
+
+
+
+        // span.textContent = 'Please give some tip';
+        // tip.after(span);
+        // span.textContent = 'Please fill the cost input';
+        // cost.after(span);

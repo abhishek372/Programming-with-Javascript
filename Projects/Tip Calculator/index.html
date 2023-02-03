@@ -11,11 +11,13 @@
     
 </head>
 <body>
-    <h1 class="heading">Tip Calculator</h1>
+    <h1 class="heading">Tip Amount Calculator</h1>
     <main id="main-container">
         <div class="main-inner-container" id="main-inner-container">    
-            <input type="number" class="cost-input" min="0" placeholder="Cost" value="" required/>
-            <input type="number" class="tip-cost-input" min="0" placeholder="Tip" value="" required/>
+            <label class="food-cost-label">Food cost</label>
+            <input type="number" class="cost-input" min="0" placeholder="Food Cost" value="" readonly/>
+            <label class="tip-percent-label">Tip Percent</label>
+            <input type="number" class="tip-percent-input" min="0" placeholder="Tip" value="" readonly/>
 
             <button class="calculate-btn">🖊️Calculate!🖊️</button>
 

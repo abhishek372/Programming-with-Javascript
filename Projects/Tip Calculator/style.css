@@ -10,24 +10,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-image: linear-gradient(to right bottom, #153a71, #00669e, #0093c0, #00c1d5, #31efde);    
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0;
 }
 
 
 .heading {
     color: #0a1a2a; 
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: bold;
     width: 100%;
     text-align: center;
     padding: 0.5em;
     font-family: 'Montserrat',sans-serif;
     font-weight: 500;
+    padding-bottom: 1em;
 }
 #main-container {
-    background-color: #006772;
+    background-color: #6ac6d0eb;
     height: 30em;
     width: 40em;
     border-radius: 5px;
@@ -44,16 +47,16 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    gap: 1.5em;
+    gap: 1em;
 }
 
-.cost-input, .tip-cost-input, .calculate-btn {
+.cost-input, .tip-percent-input, .calculate-btn {
     padding: 0.45em 0.25em;
     width: 20em;
     font-size: 1.5em;
 }
 
-.cost-input, .tip-cost-input {
+.cost-input, .tip-percent-input {
     color: #566573;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
@@ -75,7 +78,14 @@ body {
     color: #727a83;
 }
 
-
+.food-cost-label, .tip-percent-label {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #133669;
+    width: 100%;
+}
 
 .calculate-btn {
     color:#0d1014;
