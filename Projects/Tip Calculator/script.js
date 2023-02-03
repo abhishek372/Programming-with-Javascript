@@ -8,8 +8,8 @@ const btn = document.querySelector('.calculate-btn');
 const mainInnerContainer = document.querySelector('#main-inner-container');
 
 // Take user input using prompt
-cost.value = prompt('Entey food cost: ');
-tipPercent.value = prompt('Enter the tip percent: ');
+cost.value = Number(prompt('Entey food cost: '));
+tipPercent.value = Number(prompt('Enter the tip percent: '));
 
 // Calculate the cost on button click
 btn.addEventListener('click', () => {
