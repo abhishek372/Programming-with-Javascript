@@ -15,5 +15,20 @@ function add(a, b) {
 
 console.log(add(oneNumber, otherNumber));
 
+
+function objectMaker(number){
+    return {
+        props: number
+    }
+}
+
+// Create a new object from function
+console.log(objectMaker(50));
+
+
 // Note: here both the functions and data are working independently and function 'add' working taking
 // two parameters to return the sum of the number.
+
+// By default, the function returns undefined.
+
+// Returning custom values from the function makes JS the functional programming.
