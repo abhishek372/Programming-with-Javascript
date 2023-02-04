@@ -23,9 +23,9 @@ var useRandom = true;
 var getNumber;
 
 if(useRandom) {
-    getNumber = randomNum
+    getNumber = randomNum           // Passing function 'randomNum' to variable
 } else {
-    getNumber = specificNum
+    getNumber = specificNum          // Passing function 'specificNum' to variable
 }
 
 addTwoNums(getNumber(), getNumber())
